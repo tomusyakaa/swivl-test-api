@@ -15,8 +15,9 @@ Symfony 5 Classroom api
  $ cd you-dir
  $ composer install
  
- $ # Set DATABASE_URL in your .env file
- $ # APP_ENV=dev 
+ $ # Make own env file
+ $ cp .env.template .env
+ $ #Fill DATABASE_URL in .env file with path to your databsase 
 
  $ # Create the database
  $ bin/console doctrine:database:create
@@ -27,7 +28,6 @@ Symfony 5 Classroom api
  $ # Start local server
  $  symfony server:start
 
- $ 
   ```
 # Requests
 
